@@ -55,9 +55,11 @@ npm --version
 | ----------- | ------- |
 | Angular CLI | 22.3.0  |
 
-Angular CLI is installed globally to provide the Angular development commands.
+Angular CLI is installed globally to provide Angular development commands.
 
-The Angular framework version used by the actual frontend application will be established when the application is initialized.
+The selected Angular framework version for the MusicBoxd frontend is 22.3.0.
+
+The Angular CLI and framework versions are aligned for the initial application setup.
 
 Verification:
 
@@ -151,17 +153,26 @@ gh auth status
 
 ## 6. Application Version Management
 
-The installed development tools and the application dependencies are separate concerns.
+The development environment and application dependencies use the following selected versions:
 
-The following versions must be established during application initialization:
+| Component   | Selected Version |
+| ----------- | ---------------- |
+| Java        | 21.0.10 LTS      |
+| Node.js     | 24.20.0          |
+| Angular CLI | 22.3.0           |
+| Angular     | 22.3.0           |
+| Spring Boot | 4.2.0            |
+| PostgreSQL  | 18.3             |
 
-- Spring Boot version.
-- Angular framework version.
+The selected versions have been checked for compatibility with the development environment.
+
+The following project configuration details remain to be established during application initialization:
+
 - Maven Wrapper version.
+- Maven distribution version used by the wrapper.
+- Exact dependency versions and generated project configuration.
 
-Version selection must prioritize compatibility, supported releases, and reproducible builds.
-
-The project should document the actual application dependency versions rather than assuming they match globally installed tools.
+Application dependencies should be pinned through their respective build configuration files to ensure reproducible builds.
 
 ## 7. Environment Configuration
 
@@ -187,10 +198,10 @@ The following checks have been completed on the initial development machine:
 - [x] Git installed and configured.
 - [x] GitHub CLI installed and authenticated.
 - [x] GitHub repository created and initialized.
+- [x] Finalize Spring Boot and Angular application versions.
 
 The following tasks remain:
 
-- [ ] Finalize Spring Boot and Angular application versions.
 - [ ] Initialize the backend and frontend applications.
 - [ ] Configure Maven Wrapper.
 - [ ] Create the dedicated MusicBoxd database and application user.
