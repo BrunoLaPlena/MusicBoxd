@@ -1,0 +1,22 @@
+# IDE configuration
+.idea/
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Frontend - Angular / Node.js
+node_modules/
+dist/
+.angular/
+coverage/
+
+# Backend - Java / Maven
+backend/target/
+
+# Environment variables and local configuration
+.env
+.env.*
+!.env.example
