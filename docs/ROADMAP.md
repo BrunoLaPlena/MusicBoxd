@@ -69,11 +69,11 @@ Tasks:
 - [x] Establish the monorepo directory structure.
 - [x] Configure Maven Wrapper.
 - [x] Initialize the Spring Boot backend.
-- [ ] Initialize the Angular frontend.
-- [ ] Configure Maven Wrapper.
+- [x] Initialize the Angular frontend.
+- [x] Configure Maven Wrapper.
 - [ ] Configure environment-specific settings.
-- [ ] Establish a suitable `.gitignore`.
-- [ ] Verify that both applications run independently.
+- [x] Establish a suitable `.gitignore`.
+- [x] Verify that both applications run independently.
 - [ ] Verify backend connectivity to PostgreSQL.
 
 Deliverables:
@@ -81,7 +81,7 @@ Deliverables:
 - [x] Functional initial local development environment.
 - [x] Initialized GitHub repository.
 - [x] Working Spring Boot application.
-- [ ] Working Angular application.
+- [x] Working Angular application.
 - [x] Working PostgreSQL installation and connection.
 
 **Progress notes:**

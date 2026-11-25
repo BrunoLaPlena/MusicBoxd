@@ -210,13 +210,13 @@ The following checks have been completed on the initial development machine:
 - [x] Build backend using Maven Wrapper.
 - [x] Verify backend application startup.
 - [x] Verify Actuator health endpoint.
+- [x] Initialize the Angular frontend.
+- [x] Verify both applications run independently.
 
 The following tasks remain:
 
-- [ ] Initialize the Angular frontend.
 - [ ] Create the dedicated MusicBoxd database and application user.
 - [ ] Configure environment-specific application settings.
-- [ ] Verify both applications run independently.
 - [ ] Verify backend connectivity to the MusicBoxd database.
 
 ---
