@@ -66,8 +66,9 @@ Tasks:
   - [x] Finalize Spring Boot and Angular application versions.
 - [x] Configure Git and GitHub.
 - [x] Create the project repository.
-- [ ] Establish the monorepo directory structure.
-- [ ] Initialize the Spring Boot backend.
+- [x] Establish the monorepo directory structure.
+- [x] Configure Maven Wrapper.
+- [x] Initialize the Spring Boot backend.
 - [ ] Initialize the Angular frontend.
 - [ ] Configure Maven Wrapper.
 - [ ] Configure environment-specific settings.
@@ -79,7 +80,7 @@ Deliverables:
 
 - [x] Functional initial local development environment.
 - [x] Initialized GitHub repository.
-- [ ] Working Spring Boot application.
+- [x] Working Spring Boot application.
 - [ ] Working Angular application.
 - [x] Working PostgreSQL installation and connection.
 

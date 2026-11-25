@@ -73,9 +73,15 @@ ng version
 | ------------ | ------- |
 | Apache Maven | 3.9.14  |
 
-Maven is installed globally. However, the backend project will use Maven Wrapper to ensure consistent builds and avoid depending on the globally installed Maven version.
+The backend uses Maven Wrapper with the following configuration:
 
-Once initialized, Maven commands should be executed through the project wrapper.
+| Component          | Version |
+| ------------------ | ------- |
+| Maven Wrapper      | 3.3.4   |
+| Maven distribution | 3.10.1  |
+
+The globally installed Maven 3.9.14 is independent of the
+project's Maven Wrapper configuration.
 
 Verification:
 
@@ -199,11 +205,15 @@ The following checks have been completed on the initial development machine:
 - [x] GitHub CLI installed and authenticated.
 - [x] GitHub repository created and initialized.
 - [x] Finalize Spring Boot and Angular application versions.
+- [x] Configure Maven Wrapper.
+- [x] Initialize Spring Boot backend.
+- [x] Build backend using Maven Wrapper.
+- [x] Verify backend application startup.
+- [x] Verify Actuator health endpoint.
 
 The following tasks remain:
 
-- [ ] Initialize the backend and frontend applications.
-- [ ] Configure Maven Wrapper.
+- [ ] Initialize the Angular frontend.
 - [ ] Create the dedicated MusicBoxd database and application user.
 - [ ] Configure environment-specific application settings.
 - [ ] Verify both applications run independently.
